@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HELLO PIZZA</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li> <a href="HelloPizzaMSP.html">Monte sua pizza</a></li>
+                    <li> <a href="#Escolha_sua_pizza" itemid="Escolha_sua_pizza">Escolha a sua pizza</a></li>
+                    <li> <a href="#Fale_conosco" itemid="Fale_conosco">Fale conosco</a></li>
+                    <li> <a href="#Sobre_nos" itemid="Sobre_nos">Sobre nós</a></li>
+                    <li> <a href="HelloPizzaTC.html">Trabalhe conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+    <main>
+        <section id="Escolha_sua_pizza">
+            <h1> A pizza como você jamais experimentou!</h1>
+            <table>             
+                <thead>
+                    <tr>
+                    <th></th>
+                    <th>Sabor</th>
+                    <th>Ingredientes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><input type="checkbox"></td><td>4 Queijos</td><td>Mussarela, Molho de tomate,<br> Provolone, Queijo prato, Requeijão</td></tr>
+                    <tr><td><input type="checkbox"></td><td>Calabresa</td><td>Mussarela, Molho de tomate,<br> Linguiça Calabresa</td></tr>
+                    <tr><td><input type="checkbox"></td><td>Frango Desfiado</td><td>Mussarela, Molho de tomate,<br> Frango Desfiado, Azeitonas</td></tr>
+                    <tr><td><input type="checkbox"></td><td>Carne Seca</td><td>Mussarela, Molho de tomate,<br> Carne Seca, Azeitonas</td></tr>
+                    <tr><td><input type="checkbox"></td><td>Lombo Canadense</td><td>Mussarela, Molho de tomate,<br> Lombo Canadense, Azeitonas, Palmito</td></tr>
+                    <tr><td><input type="checkbox"></td><td>Mussarela</td><td>Mussarela, Molho de tomate</td></tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <form method="POST"><fieldset><legend>Endereço para o envio da pizza</legend>
+                <label>Endereço</label>
+                <input type="text" name="endereco_entrega">
+                <label>Número:</label>
+                <input type="number" name="numero_entrega">
+                <label>Complemento:</label>
+                <input type="number" name="complemento-entrega">
+                <label>Nome:</label>
+                <input type="text" name="nome_entrega" placeholder="Nome de quem irá receber">
+                <label>Cidade:</label>
+                <input type="text" name="cidade_entrega">
+                <label>Estado:</label>
+                <input type="text" name="estado_entrega">
+                </fieldset>
+            </form>
+        </section>
+        </main>
+        <footer>
+            <section id="Fale_conosco"><br><br><br><br><br><br><br><br><br>
+            <Form method="POST">
+                <fieldset>
+                    <legend>Contato</legend>
+                <label>Nome:</label>
+                <input type="text"name="nome"><br>
+                <label>E-mail:</label>
+                <input type="email"name="email"><br>
+                <label>Telefone para contato:</label>
+                <input type="tel"name="telefone"><br>
+                <label>Mensagem:</label>
+                <textarea>Digite sua mensagem aqui!</textarea>
+                <button type="submit" >Enviar</button>
+                </fieldset>
+            </Form>
+            </section><br><br><br><br><br><br><br><br><br>
+            <section id="Sobre_nos">
+                <fieldset><legend>Sobre nós</legend>
+                <p>Somos uma pizzaria desde 1958 com inúmeras filiais pelo o mundo preparando suas pizzas com todo o carinho e o orgulho de ver um cliente satisfeito</p>
+                </fieldset>
+            </section>
+        </footer>
+    </body>
+</html>

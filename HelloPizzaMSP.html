@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HELLO PIZZA</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li> <a href="HelloPizzamain.html">HOME</a></li>
+                    <li> <a href="HelloPizzamain.html" itemid="Escolha_sua_pizza">Escolha a sua pizza</a></li>
+                    <li> <a href="HelloPizzamain.html">Fale conosco</a></li>
+                    <li> <a href="HelloPizzamain.html">Sobre nós</a></li>
+                    <li> <a href="HelloPizzaTC.html">Trabalhe conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+        <body>
+            <main>
+                <section id="Monte_sua_pizza">
+                    <h1>A pizza do seu jeito!</h1>
+                      <form method="GET">
+                        <div>
+                          <label>Deseja escolher mais de 1 sabor?</label><br><br>
+                          <label>Sim</label>
+                          <input type="radio" name="sabor" placeholder="Sim" checked>
+                          <label>Não</label>
+                          <input type="radio" name="sabor"placeholder="Não">
+                        </div><br><br>
+                        <div>
+                            <label>Qual o primeiro sabor?</label><br>
+                            <select title="Qual o primeiro sabor?">
+                             <option name="4queijos">4 Queijos</option>
+                             <option name="calabresa">Calabresa</option>
+                             <option name="Frango_desfiado">Frango Desfiado</option>
+                             <option name="Mussarela">Mussarela</option>
+                             <option name="Lombo_canadense">Lombo Canadense</option>
+                             <option name="carne_seca">Carne Seca</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Qual o segundo sabor?</label><br>
+                            <select title="Qual o segundo sabor?">
+                             <option name="4queijos">4 Queijos</option>
+                             <option name="calabresa">Calabresa</option>
+                             <option name="Frango_desfiado">Frango Desfiado</option>
+                             <option name="Mussarela">Mussarela</option>
+                             <option name="Lombo_canadense">Lombo Canadense</option>
+                             <option name="carne_seca">Carne Seca</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Qual o Terceiro sabor?</label><br>
+                            <select title="Qual o Terceiro sabor?">
+                             <option name="4queijos">4 Queijos</option>
+                             <option name="calabresa">Calabresa</option>
+                             <option name="Frango_desfiado">Frango Desfiado</option>
+                             <option name="Mussarela">Mussarela</option>
+                             <option name="Lombo_canadense">Lombo Canadense</option>
+                             <option name="carne_seca">Carne Seca</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Qual o Quarto sabor?</label><br>
+                            <select title="Qual o Quarto sabor?">
+                             <option name="4queijos">4 Queijos</option>
+                             <option name="calabresa">Calabresa</option>
+                             <option name="Frango_desfiado">Frango Desfiado</option>
+                             <option name="Mussarela">Mussarela</option>
+                             <option name="Lombo_canadense">Lombo Canadense</option>
+                             <option name="carne_seca">Carne Seca</option>
+                            </select>
+                        </div>
+                      </form>
+                </section>
+                <section>
+                    <form method="POST"><fieldset><legend>Endereço para o envio da pizza</legend>
+                        <label>Endereço</label>
+                        <input type="text" name="endereco_entrega">
+                        <label>Número:</label>
+                        <input type="number" name="numero_entrega">
+                        <label>Complemento:</label>
+                        <input type="number" name="complemento-entrega">
+                        <label>Nome:</label>
+                        <input type="text" name="nome_entrega" placeholder="Nome de quem irá receber">
+                        <label>Cidade:</label>
+                        <input type="text" name="cidade_entrega">
+                        <label>Estado:</label>
+                        <input type="text" name="estado_entrega">
+                        </fieldset>
+                    </form>
+                </section> 
+            </main>
+        </body>
